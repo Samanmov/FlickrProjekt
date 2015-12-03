@@ -1,0 +1,79 @@
+body{
+	background-color: black;
+}
+.logo{
+	width: 20%;
+	float: left;
+	right: 20%;
+}
+form{
+	clear: both;
+	padding-bottom: 10px;
+	
+}
+nav{
+	float: left;
+	
+}
+ul{
+	list-style: none;
+	color: white;		
+}
+
+li{
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: Helvetica;
+	font-weight: 600;
+}
+nav ul li a:hover{
+	font-weight: 100;
+	color: white;
+	font-family: Helvetica;
+}
+img{
+	width: 47%;
+	padding: 5px;
+	
+	
+}
+
+button{
+	background:#4EA0F3;
+	margin-left: -4px;
+	width: 50px;
+	height: 22px;
+	color: white;
+	font-weight: 100;
+}
+	
+
+#textbox{
+	margin-left: 6px;
+	height: 15px;
+}
+
+#results{
+	justify-content:center;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#results2{
+	color: white;
+	font-family: Helvetica;
+	line-height:2;
+	padding: 10px;
+}
